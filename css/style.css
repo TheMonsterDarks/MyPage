@@ -104,9 +104,69 @@ header{
     background: #87d30571;
 }
 
+/*Persona*/
+#personas{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#personas img{
+    border-radius: 100%;
+}
+#personas div{
+    padding: 30px 30px;
+}
 
+#personas div h4{
+    color: #111110;
+    font-size: 20px;
+    margin: 15px 0px;
+}
 
+#personas div p{
+    color: #11111080;
+    font-size: 18px;
+}
 
+.boton-saber-mas{
+    display: inline-block;
+    text-decoration: none;
+    color: #89D305;
+    padding: 10px 30px;
+    border: 3px solid #89D305;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+
+.boton-saber-mas:hover{
+    background: #87d30571;
+    color: #fff;
+}
+
+/*Iconos*/
+
+#iconos{
+    padding: 0px 50px;
+    background: #111110;
+}
+
+#contenido-iconos{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#contenido-iconos div{
+    flex: 1;
+    margin: 20px;
+    border-right: 2px solid #ffffff62 ;
+}
+
+#contenido-iconos img{
+    width: 50px;
+}
 
 
 /*Responsive*/
@@ -146,5 +206,10 @@ header{
 
     #check:checked ~ .menu{
         right: 0;
+    }
+
+    /*Personas*/
+    #personas{
+        flex-direction: column;
     }
 }
