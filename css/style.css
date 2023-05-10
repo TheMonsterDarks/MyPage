@@ -152,22 +152,129 @@ header{
     background: #111110;
 }
 
-#contenido-iconos{
+.contenido-iconos{
     padding: 50px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-#contenido-iconos div{
+.contenido-iconos div{
     flex: 1;
     margin: 20px;
     border-right: 2px solid #ffffff62 ;
 }
 
-#contenido-iconos img{
+.contenido-iconos img{
     width: 50px;
 }
 
+#icono-i{
+    border: none;
+}
+
+.contenido-iconos div h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+.boton-iconos{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*Formulario*/
+
+#contacto{
+    background: #fff;
+    padding: 50px 0px;
+    color: #111110;
+}
+
+#contacto h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#contacto form{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.datos-form{
+    display: flex;
+}
+
+.datos-form div{
+    padding: 10px;
+    flex: 1;
+}
+
+.nombre, .gmail,  .mensaje{
+    display: block;
+    transition: 0.4s;
+}
+.nombre :hover{
+    background: #87d30571;
+}
+
+.gmail :hover{
+    background: #87d30571;
+}
+
+.mensaje :hover{
+    background: #87d30571;
+}
+
+.form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,form textarea{
+   
+    border-radius: 10px;
+    border: 2px solid #89D305;
+    padding: 10px 5px;
+    outline: 0;
+    color: #fff;
+    width: 100%;
+}
+
+form input:focus, form textarea:focus{
+    border-color:#89D305 ;
+    box-shadow: 0 0 0 1px #89D305;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: #fff;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction:column ;
+    padding: 10px;
+}
+
+.boton-formulario, .boton-saber-mas{
+    display: block;
+    transition: 0.4s;
+}
+
+.boton-formulario, .boton-saber-mas :hover{
+    background:#fff ;
+    text-align: center;
+}
+
+/*Footer*/
+footer{
+    background: #111110;
+    color: #cccccc4a;
+    text-align: center;
+    padding: 10px 0;
+}
 
 /*Responsive*/
 
@@ -210,6 +317,21 @@ header{
 
     /*Personas*/
     #personas{
+        flex-direction: column;
+    }
+
+    /*Iconos*/
+
+    .contenido-iconos{
+        flex-direction: column;
+    }
+
+    .contenido-iconos div{
+        border: none;
+    }
+
+    /*Formulario*/
+    .datos-form{
         flex-direction: column;
     }
 }

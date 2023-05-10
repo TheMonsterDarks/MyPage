@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icono.jpg">
+</head>
+<body>
+    <!--MENU-->
+    <header>
+        <h2 class="logo">My Page</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Blog</a>
+            <a href="contacto.html">Contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+     </header>
+     <!--Formulario-->
+     <section id="contacto">
+        <h4>
+            Contacta con Nosotros
+        </h4>
+        <form action="">
+            <div class="datos-form">
+                <div class="nombre">
+                    <label for="nombre" >Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <!--Gmail-->
+                <div class="gmail">
+                    <label for="gmail" >Correo</label>
+                    <input type="email" name="gmail" id="gmail" placeholder="Gmail">
+                </div>
+            </div>
+            <!--Mensaje-->
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <a href="#" class="boton-saber-mas">Enviar Mensaje</a>
+            </div>
+        </form>
+    </section>
+    <!--Contacto-->
+    <section id="iconos">
+        <div class="contenido-iconos">
+            <div>
+                <a href="https://github.com/TheMonsterDarks">
+                    <img src="img/github.ico" alt="github">
+                </a>
+                <h6>
+                    GitHub
+                </h6>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/whatsapp.ico" alt="whatsapp">
+                </a>
+                <h6>
+                    WhatsApp
+                </h6>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/gmail.ico" alt="gmail">
+                </a>
+                <h6>
+                    Gmail
+                </h6>
+            </div>
+            <div id="icono-i">
+                <a href="https://www.instagram.com/young_monster_999/">
+                    <img src="img/instagram.ico" alt="instagram">
+                </a>
+                <h6>
+                    Instagram  
+                </h6>
+            </div>
+        </div>
+        <div class="boton-iconos">
+            <a href="#" class="boton-saber-mas">Saber Mas</a>
+        </div>
+    </section> 
+    <!--Footer-->
+    <footer>
+        <p>&copy;2023 TheMonsterDarks</p>
+    </footer>
+</body>
+</html>
