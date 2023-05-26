@@ -184,8 +184,33 @@ header{
     padding-bottom: 50px;
 }
 
-/*PresentacionP*/
+/*Perfil*/
 
+.section_profile{
+    background-color: rgb(31, 71, 180);
+    text-align: center;
+    width: 80%;
+    border: 7px solid white;
+    font-size: 20px;
+}
+
+.aside_profile{
+    background-color: rgb(221, 57, 180);
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    border: 7px solid white;   
+}
+
+.img_profile{
+width: 100%;
+height: 100%;
+}
+
+
+main{
+    display: flex;
+}
 
 
 
